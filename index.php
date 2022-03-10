@@ -1,183 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="./assets/css/style.min.css">
-
-
-    <title>Document</title>
-</head>
-
-<body>
-
-    <header class="header" id="#home">
-        <div class="container">
-            <div class="header__top" id="go-top">
-<!-- navigation -->
-                <div class="header__navigation">
-                    <nav class="header__menu menu">
-                        <ul class="menu__list">
-                            <li class="menu__item">
-                                <a class="menu-link" href="#home">Home</a>
-                            </li>
-                            <li class="menu__item">
-                                <a class="menu-link" href="#shop">Shop</a>
-                            </li>
-                            <li class="menu__item">
-                                <a class="menu-link" href="#story">Story</a>
-                            </li>
-                            <li class="menu__item">
-                                <a class="menu-link" href="#about">About</a>
-                            </li>
-                            <li class="menu__item">
-                                <a class="menu-link" href="#blog">Blog</a>
-                            </li>
-                            <li class="menu__item">
-                                <a class="menu-link" href="#testimonials">Testimonials</a>
-                            </li>
-                        </ul>
-                    </nav>
-                    <div class="header__right-block">
-                        <div class="header__personal personal">
-                            <ul class="personal__list">
-                                <li class="personal__list-item">
-                                    <a class="personal__link" href=" ">
-                                        <img class="personal__img" src="./assets/images/header/Search-icon.png " alt="icon">
-                                    </a>
-                                </li>
-                                <li class="personal__list-item">
-                                    <a class="personal__link" href=" ">
-                                        <img class="personal__img" src="./assets/images/header/User-icon.png " alt="icon">
-                                    </a>
-                                </li>
-                                <li class="personal__list-item">
-                                    <a class="personal__link" href=" ">
-                                        <img class="personal__img" src=" ./assets/images/header/Cart-icon.png" alt="icon">
-                                        <span class="personal__counter">0</span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-
-                        <div class="header__social social">
-                            <ul class="social__list">
-                                <li class="social__list-item">
-                                    <a class="social__link" href=" ">
-                                        <img class="social__img" src="./assets/images/header/Facebook-icon.png " alt="fb">
-                                    </a>
-                                </li>
-                                <li class="social__list-item">
-                                    <a class="social__link" href=" ">
-                                        <img class="social__img" src="./assets/images/header/Pinterest-icon.png " alt="pinterest">
-                                    </a>
-                                </li>
-                                <li class="social__list-item">
-                                    <a class="social__link" href=" ">
-                                        <img class="social__img" src="./assets/images/header/Instagram-icon.png " alt="insta">
-
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="header__logo logo">
-                    <a class="logo__link" href=" ">
-                        <img class="logo__img" src="./assets/images/header/Logo.png" alt="org">
-                    </a>
-                </div>
-
-
-            </div>
-<!--кнопка бургер  -->
-            <button class="header__burger-btn" id="header__burger-btn">
-                <img class="header__burger-btn-icon" id="header__burger-btn-icon" src="./assets/images/header/menu.svg" alt="">
-            </button>
-
-
-<!-- бургер меню -->
-<div class="header__burger burger" id="header__burger">
-<!-- 1block -->
-    <nav class="burger__menu menu" id="burger__menu">
-        <ul class="menu__list burger__list">
-            <li class="menu__item burger__item">
-                <a class="menu-link" href="#home">Home</a>
-            </li>
-            <li class="menu__item burger__item">
-                <a class="menu-link" href="#shop">Shop</a>
-            </li>
-            <li class="menu__item burger__item">
-                <a class="menu-link" href="#story">Story</a>
-            </li>
-            <li class="menu__item burger__item">
-                <a class="menu-link" href="#about">About</a>
-            </li>
-            <li class="menu__item burger__item">
-                <a class="menu-link" href="#blog">Blog</a>
-            </li>
-            <li class="menu__item burger__item">
-                <a class="menu-link" href="#testimonials">testimonials</a>
-            </li>
-        </ul>
-    </nav>
-<!-- 2block -->
-    <div class="header__right-block burger__right-block">
-        <div class="header__personal burger__personal personal">
-            <ul class="personal__list">
-                <li class="personal__list-item">
-                    <a class="personal__link" href=" ">
-                        <img class="personal__img" src="./assets/images/header/Search-icon.png " alt="icon">
-                    </a>
-                </li>
-                <li class="personal__list-item">
-                    <a class="personal__link" href=" ">
-                        <img class="personal__img" src="./assets/images/header/User-icon.png " alt="icon">
-                    </a>
-                </li>
-                <li class="personal__list-item">
-                    <a class="personal__link" href=" ">
-                        <img class="personal__img" src=" ./assets/images/header/Cart-icon.png" alt="icon">
-                        <span class="personal__counter">0</span>
-                    </a>
-                </li>
-            </ul>
-        </div>
-
-        <div class="header__social social">
-            <ul class="social__list">
-                <li class="social__list-item">
-                    <a class="social__link" href=" ">
-                        <img class="social__img" src="./assets/images/header/Facebook-icon.png " alt="fb">
-                    </a>
-                </li>
-                <li class="social__list-item">
-                    <a class="social__link" href=" ">
-                        <img class="social__img" src="./assets/images/header/Pinterest-icon.png " alt="pinterest">
-                    </a>
-                </li>
-                <li class="social__list-item">
-                    <a class="social__link" href=" ">
-                        <img class="social__img" src="./assets/images/header/Instagram-icon.png " alt="insta">
-
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </div>
-
-</div>
-
-
-            <div class="header__content"><button class="wow animated fadeInLeftBig header__btn btn btn--green">Shop Now</button>
-            </div>
-            <h1 class="tracking-in-contract-bck header-heading">Smoothies</h1>
-        </div>
-    </header>
+<?php get_header(); ?>
 <!-- SMOOTHIES -->
     <section class="smoothies" id="shop">
         <div class="container">
@@ -188,35 +10,35 @@
 
             <div class="smoothies__wrapper">
                 <div class="smoothies__card">
-                    <img class="smoothies__img" src="./assets/images/smoothies/Icon1.png " alt="plant">
+                    <img class="smoothies__img" src="<?php echo IMG_DIR; ?>/smoothies/Icon1.png " alt="plant">
                     <h3 class="smoothies__heading">Plant Based</h3>
                 </div>
                 <div class="smoothies__card">
-                    <img class="smoothies__img" src="./assets/images/smoothies/Icon2.png " alt="vegan">
+                    <img class="smoothies__img" src="<?php echo IMG_DIR; ?>/smoothies/Icon2.png " alt="vegan">
                     <h3 class="smoothies__heading">Vegan</h3>
                 </div>
                 <div class="smoothies__card">
-                    <img class="smoothies__img" src="./assets/images/smoothies/Icon3.png " alt="paleo">
+                    <img class="smoothies__img" src="<?php echo IMG_DIR; ?>/smoothies/Icon3.png " alt="paleo">
                     <h3 class="smoothies__heading">Paleo</h3>
                 </div>
                 <div class="smoothies__card">
-                    <img class="smoothies__img" src="./assets/images/smoothies/Icon4.png " alt="gluten-Free">
+                    <img class="smoothies__img" src="<?php echo IMG_DIR; ?>/smoothies/Icon4.png " alt="gluten-Free">
                     <h3 class="smoothies__heading">Gluten-Free</h3>
                 </div>
                 <div class="smoothies__card">
-                    <img class="smoothies__img" src="./assets/images/smoothies/Icon5.png " alt="Corn-Free">
+                    <img class="smoothies__img" src="<?php echo IMG_DIR; ?>/smoothies/Icon5.png " alt="Corn-Free">
                     <h3 class="smoothies__heading">Corn-Free</h3>
                 </div>
                 <div class="smoothies__card">
-                    <img class="smoothies__img" src="./assets/images/smoothies/Icon6.png " alt="Soy-Free">
+                    <img class="smoothies__img" src="<?php echo IMG_DIR; ?>/smoothies/Icon6.png " alt="Soy-Free">
                     <h3 class="smoothies__heading">Soy-Free</h3>
                 </div>
                 <div class="smoothies__card">
-                    <img class="smoothies__img" src="./assets/images/smoothies/Icon7.png " alt="Ayurvedic">
+                    <img class="smoothies__img" src="<?php echo IMG_DIR; ?>/smoothies/Icon7.png " alt="Ayurvedic">
                     <h3 class="smoothies__heading">Ayurvedic</h3>
                 </div>
                 <div class="smoothies__card">
-                    <img class="smoothies__img" src="./assets/images/smoothies/Icon8.png " alt="Love">
+                    <img class="smoothies__img" src="<?php echo IMG_DIR; ?>/smoothies/Icon8.png " alt="Love">
                     <h3 class="smoothies__heading">Made With Love</h3>
                 </div>
             </div>
@@ -227,7 +49,7 @@
         <div class="container">
             <div class="about__wrapper">
 
-                <img class="about__img " data-tilt src="./assets/images/about/about.png" alt="bottles">
+                <img class="about__img " data-tilt src="<?php echo IMG_DIR; ?>/about/about.png" alt="bottles">
 
                 <div class="about__text">
                     <h2 class="about__title title">What makes Smoothie an <span class="about__title-green">awesome
@@ -253,25 +75,25 @@
     <section class="products" >
         <div class="products__wrapper">
             <div class="products__box products__box--red ">
-                <img class="products__img" src="./assets/images/products/Img1.png" alt="bottlebrown">
+                <img class="products__img" src="<?php echo IMG_DIR; ?>/products/Img1.png" alt="bottlebrown">
                 <h3 data-wow-offset="400" class="wow animated pulse products__heading">Dark Chocolate Smoothie<br><i class="products__italik">100 ml</i> </h3>
                 <a class="products__btn btn btn--white" href="#">Buy</a>
             </div>
 
             <div class="products__box products__box--green">
-                <img class="products__img" src="./assets/images/products/Imggreen.png" alt="bottlegreen">
+                <img class="products__img" src="<?php echo IMG_DIR; ?>/products/Imggreen.png" alt="bottlegreen">
                 <h3 data-wow-offset="400" class="wow animated pulse products__heading">Vegan Lettuce Smoothie<br><i class="products__italik">100 ml</i> </h3>
                 <a class="products__btn btn btn--white" href="#">Buy</a>
             </div>
 
             <div class="products__box products__box--yellow">
-                <img class="products__img" src="./assets/images/products/Imglemon.png" alt="bottleyellow">
+                <img class="products__img" src="<?php echo IMG_DIR; ?>/products/Imglemon.png" alt="bottleyellow">
                 <h3 data-wow-offset="400" class="wow animated pulse products__heading">Lemon Ginger Smoothie<br><i class="products__italik">100 ml</i> </h3>
                 <a class="products__btn btn btn--white" href="#">Buy</a>
             </div>
 
             <div class="products__box products__box--orange">
-                <img class="products__img" src="./assets/images/products/Imgred.png" alt="bottlered">
+                <img class="products__img" src="<?php echo IMG_DIR; ?>/products/Imgred.png" alt="bottlered">
                 <h3 data-wow-offset="400" class="wow animated pulse products__heading">Turmeric Garlic Smoothie<br><i class="products__italik">100 ml</i> </h3>
                 <a class="products__btn btn btn--white" href="#">Buy</a>
             </div>
@@ -288,7 +110,7 @@
                 </div>
 
                 <div class="story__pic">
-                    <img class="story__img" src="./assets/images/story/Img.jpg" alt="coctail">
+                    <img class="story__img" src="<?php echo IMG_DIR; ?>/story/Img.jpg" alt="coctail">
                 </div>
             </div>
         </div>
@@ -304,7 +126,7 @@
                 </blockquote>
                 <cite class="testimonials__santa">from Santa Monica, CA</cite>
             </div>
-            <img class="testimonials__avatar" src="./assets/images/testimonials/Img.png" alt="women">
+            <img class="testimonials__avatar" src="<?php echo IMG_DIR; ?>/testimonials/Img.png" alt="women">
 
         </article>
 
@@ -319,7 +141,7 @@
             <div class="blog__wrapp">
                 <div data-wow-offset="300" class="wow animated fadeInLeftBig blog__box">
                     <h2 class="blog__title title">Our blog</h2>
-                    <img class=" blog__img" src="./assets/images/blog/Img.jpg" alt="pudding">
+                    <img class=" blog__img" src="<?php echo IMG_DIR; ?>/blog/Img.jpg" alt="pudding">
                 </div>
 
                 <div data-wow-offset="300" class="wow animated fadeInRightBig blog__content">
@@ -341,157 +163,27 @@
         <div class="instagram__wrapper">
 
             <div class="instagram__card">
-                <img class="instagram__img" src="./assets/images/instagram/Img1.jpg" alt="smoothie1">
+                <img class="instagram__img" src="<?php echo IMG_DIR; ?>/instagram/Img1.jpg" alt="smoothie1">
             </div>
 
             <div class="instagram__card">
-                <img class="instagram__img" src="./assets/images/instagram/Img2.jpg" alt="smoothie2">
+                <img class="instagram__img" src="<?php echo IMG_DIR; ?>/instagram/Img2.jpg" alt="smoothie2">
             </div>
 
             <div class="instagram__card">
-                <img class="instagram__img" src="./assets/images/instagram/Img3.jpg" alt="smoothie3">
+                <img class="instagram__img" src="<?php echo IMG_DIR; ?>/instagram/Img3.jpg" alt="smoothie3">
             </div>
 
             <div class="instagram__card">
-                <img class="instagram__img" src="./assets/images/instagram/Img4.jpg" alt="smoothie4">
+                <img class="instagram__img" src="<?php echo IMG_DIR; ?>/instagram/Img4.jpg" alt="smoothie4">
             </div>
 
             <div class="instagram__card">
-                <img class="instagram__img" src="./assets/images/instagram/Img5.jpg" alt="smoothie5">
+                <img class="instagram__img" src="<?php echo IMG_DIR; ?>/instagram/Img5.jpg" alt="smoothie5">
             </div>
 
         </div>
 
     </section>
-<!-- FOOTER -->
-    <section class="footer">
-        <div class="container">
-            <div class="footer__content">
 
-                <div class="footer__logo logo">
-                    <a class="logo__link " href=" ">
-                        <img class="logo__img" src="./assets/images/header/Logo.png" alt="org ">
-                    </a>
-                </div>
-
-                <div class="footer__info ">
-                    <h4 class="footer__info_heading">Information</h4>
-                    <ul class="footer__info_list">
-
-                        <li class="footer__info_item">
-                            <a class="footer__info_link" href="">Search</a>
-                        </li>
-
-                        <li class="footer__info_item">
-                            <a class="footer__info_link" href="">Contact us</a>
-                        </li>
-
-                        <li class="footer__info_item">
-                            <a class="footer__info_link" href="">Terms & Conditions</a>
-                        </li>
-
-                        <li class="footer__info_item">
-                            <a class="footer__info_link" href="">Privacy Policy</a></li>
-                    </ul>
-                </div>
-
-                <div class="footer__pay ">
-                    <h4 class="footer__pay-heading">Payment</h4>
-                    <ul class="footer__pay-list">
-
-                        <li class="footer__pay-item">
-                            <img class="footer__pay-img" src="./assets/images/footer/AMEX.png" alt="AMEX">
-                        </li>
-
-                        <li class="footer__pay-item">
-                            <img class="footer__pay_img" src="./assets/images/footer/Apple Pay.png" alt="Apple Pay">
-                        </li>
-
-                        <li class="footer__pay-item">
-                            <img class="footer__pay-img" src="./assets/images/footer/Maestro.png" alt="Maestro">
-                        </li>
-
-                        <li class="footer__pay-item">
-                            <img class="footer__pay-img" src="./assets/images/footer/Discover.png" alt="Discover">
-                        </li>
-
-                        <li class="footer__pay-item">
-                            <img class="footer__pay-img" src="./assets/images/footer/JCB.png" alt="JCB">
-                        </li>
-
-                        <li class="footer__pay-item">
-                            <img class="footer__pay-img" src="./assets/images/footer/Mastercard.png" alt="Mastercard">
-                        </li>
-
-                        <li class="footer__pay-item">
-                            <img class="footer__pay-img" src="./assets/images/footer/Paypal.png" alt="Paypal">
-                        </li>
-
-                        <li class="footer__pay-item">
-                            <img class="footer__pay-img" src="./assets/images/footer/Shopify Pay.png" alt="Shopify Pay">
-                        </li>
-
-                        <li class="footer__pay-item">
-                            <img class="footer__pay-img" src="./assets/images/footer/Visa.png" alt="Visa">
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="footer__block ">
-
-                    <h4 class="footer__block-heading">Don’t miss out!</h4>
-                    <form class="footer__block-form" action="#">
-                        <input class="footer__block-input" type="text" placeholder="Subscribe to our newsletter" name="text">
-                        <input type="hidden" class="footer__form-btn"></input>
-                    </form>
-                    <div class="footer__box-small">
-                        <button class=" footer__follow-us"> follow us </button>
-                        <div class="footer__social">
-                            <ul class="footer__social-list">
-
-                                <li class="footer__social-item">
-                                    <a class="footer__social-link" href=" ">
-                                        <img class="footer__social-img" src="./assets/images/footer/Facebook.png " alt="fb">
-                                    </a>
-                                </li>
-
-                                <li class="footer__social-item">
-                                    <a class="footer__social-link" href=" ">
-                                        <img class="footer__social-img" src="./assets/images/footer/Pinterest.png " alt="ptr">
-                                    </a>
-                                </li>
-
-                                <li class="footer__social-item">
-                                    <a class="footer__social-link" href=" ">
-                                        <img class="footer__social-img" src="./assets/images/footer/Instagram.png " alt="insta">
-                                    </a>
-                                </li>
-                            </ul>
-
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-
-        </div>
-        <div class="footer__row">
-            <small class="footer__center-text">© 2020. All Rights Reserved.
-            </small>
-            <a class="footer__btn-top" id="footer__btn-top" href="#go-top"></a>
-        </div>
-
-    </section>
-
-    <script src="./assets/js/vanilla-tilt.js"></script>
-    <script src="./assets/js/script.js"></script>
-    <script>
-        new WOW().init();
-    </script>
-    
-   
-
-</body>
-
-</html>
+    <?php get_footer(); ?>
