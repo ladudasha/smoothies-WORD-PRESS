@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?php wp_head(); ?>
     <!-- <link rel="stylesheet" href="./assets/css/style.min.css"> -->
-    <title>Document</title>
+    <title><?php bloginfo( 'description ' ); ?></title>
 </head>
 
 <body>
@@ -85,7 +85,7 @@
                 </div>
 
                 <div class="header__logo logo">
-                    <a class="logo__link" href=" ">
+                    <a class="logo__link" href="<?php bloginfo( 'url' ); ?>">
                         <img class="logo__img" src="<?php echo IMG_DIR; ?>/header/Logo.png" alt="org">
                     </a>
                 </div>
@@ -119,7 +119,7 @@
                 <a class="menu-link" href="#blog">Blog</a>
             </li>
             <li class="menu__item burger__item">
-                <a class="menu-link" href="#testimonials">testimonials</a>
+                <a class="menu-link" href="#testimonials">Testimonials</a>
             </li>
         </ul>
     </nav>

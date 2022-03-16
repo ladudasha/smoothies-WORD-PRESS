@@ -4,7 +4,7 @@
             <div class="footer__content">
 
                 <div class="footer__logo logo">
-                    <a class="logo__link " href=" ">
+                    <a class="logo__link " href="<?php echo home_url();?> ">
                         <img class="logo__img" src="<?php echo IMG_DIR; ?>/header/Logo.png" alt="org ">
                     </a>
                 </div>
