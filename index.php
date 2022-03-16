@@ -120,7 +120,10 @@
 
         <h2 data-wow-offset="400" class="wow animated fadeInDown testimonials__title title ">Why clients <span class="testimonials__love">LOVE</span> us?</h2>
 
-        <article class="testimonials__excerpt">
+        <?php
+echo do_shortcode('[smartslider3 slider="1"]');
+?>
+        <!-- <article class="testimonials__excerpt">
             <div class="testimonials__wrap">
                 <blockquote class="testimonials__blockquote">Smoothie is great. I don't know what else to say. I will let my mum know about this, she could really make use of Smoothie! Smoothie saved my business.
                 </blockquote>
@@ -128,7 +131,7 @@
             </div>
             <img class="testimonials__avatar" src="<?php echo IMG_DIR; ?>/testimonials/Img.png" alt="women">
 
-        </article>
+        </article> -->
 
         <div class="testimonials__controls">
             <button class="testimonials__arrow testimonials__arrow--left"></button>
